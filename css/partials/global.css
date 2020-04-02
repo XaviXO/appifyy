@@ -49,3 +49,14 @@ p.para{
     color: var(--text-color);
     font: normal 500 2rem/ 3.2rem;
 }
+.font-roboto{
+    font-family: var(--roboto);
+}
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
