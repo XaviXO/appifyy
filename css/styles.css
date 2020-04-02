@@ -58,3 +58,16 @@
     width: 90rem;
 }
 /* End Banner Area */ 
+/* start about css */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 6.2rem/ 7.5rem;
+    letter-spacing: 2.5rem;
+}
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+/* end about css  */
