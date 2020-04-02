@@ -1,2 +1,22 @@
 /* import fonts from fonts.css */
-@import url(/fonts.css)
+@import url(./fonts.css);
+/* css varibles  */
+@import url(./partials/varibles.css);
+/* import global varibles  */
+@import url(./partials/global.css);
+/* start nav bar  */
+
+.header_area .main-menu .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 5rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font-family: "";
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: black;
+}
+/* end of nav bar */
