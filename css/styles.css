@@ -6,17 +6,28 @@
 @import url(./partials/global.css);
 /* start nav bar  */
 
-.header_area .main-menu .navbar-brand{
+.header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
 .header_area .main-menu .navbar{
-    padding: 1rem 5rem;
+    padding: 1rem 5rem ;
 }
 .header_area .main-menu .nav-item .nav-link{
-    font-family: "";
+    /* font: normal 500 15px/2px var(--roboto); */
     text-transform: uppercase;
-    font-weight: 500;
-    padding: 1rem;
-    color: black;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 /* end of nav bar */
