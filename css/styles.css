@@ -111,7 +111,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area{
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    background: url(../img/binary3.png) no-repeat 6rem 2.5rem;
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -120,16 +120,16 @@
 }
 .site-main .brand-area .experience-area .bg-panel{
     position: absolute;
-    left: -190px; top: 0%;
+    left: -11.875rem; top: 0%;
     background: #e029290a;
-    width: 400px;
-    height: 400px;
-    margin-left: 340px;
+    width: 25rem;
+    height: 25rem;
+    margin-left: 21.25rem;
     z-index: -1;
 }
 .site-main .brand-area .experience-area .years-area .years{
     font: normal bold 84px/40px var(--roboto);
-    color: var(--primary-color2);
+    color: var(--secondary-color);
     z-index: 2;
 }
 .site-main .brand-area .experience-area .years-area h2 > span{
