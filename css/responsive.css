@@ -259,6 +259,64 @@ TODO: center subscribr button
 */
 
 /* iPhone 6/7/8 start*/
+@media only screen and (max-width: 375px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner{
+        text-align: center;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .site-banner .site-buttons button{
+        margin: 1rem 5.5rem;
+    }
+    .site-main .about-area{
+        text-align: center;
+        align-items: center;
+    }
+    .site-main .about-area .paragraph{
+        text-align: center;
+        padding: none;
+        margin-left: 2.25rem;
+    }
+    .site-main .project-area{
+        align-items: center;
+    }
+    .site-main .project-area .button-group button{
+        padding-right: 6rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .site-main .about-area .client .client-img img{
+        height: 12rem;
+        width: 12rem;
+    }
+    .site-main .subscribe-us-area{
+        text-align: center;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        margin: 1rem;
+    }
+    .site-main > .services-area .services{
+        width: 20rem;
+    } 
+    .site-main .services-area .services{
+        margin-left: -2.5rem;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button{
+        margin-right: -4.5rem;
+    }
+}
 /* iPhone 6/7/8 end*/
 
 /* iPhone 6/7/8 plus 414w :
