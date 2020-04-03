@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <!-- magnific popup css -->
     <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+    <!-- owl caousel css  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
     <!-- custom CSS files -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -265,11 +268,11 @@
         <!-- recent projects start  -->
         <section class="project-area">
             <div class="container">
-                <div class="project-title pb-5">
+                <div class="project-title pb-5 text-center">
                     <h1 class="text-uppercase title-h1">Recent Projects</h1>
                     <h1 class="text-uppercase title-h1">Quality Projects</h1>
                 </div>
-                <div class="button-group">
+                <div class="button-group text-center">
                     <button type="button" class="active" id="btn1" data-filter="*">All</button>
                     <button type="button" data-filter=".popular">Popular</button>
                     <button type="button" data-filter=".latest">Latest</button>
@@ -398,6 +401,35 @@
             </div>
         </section>
         <!-- recent projects end  -->
+        <!-- clients say Start -->
+        <section class="about-area">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-h1">Our Clients</h1>
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, tenetur. Assumenda vero ipsa inventore recusandae illum officiis cupiditate? Assumenda, illo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/monkey.png" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Tom Hanks</h4>
+                            <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nobis nisi possimus aliquid, delectus expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients say end  -->
     </main>
     <!-- end Main area  -->
 
@@ -409,6 +441,8 @@
     <script src="./vendor/isotope/isotope.min.js"></script>
     <!-- maginific popup js  -->
     <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- owl carousel js  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
     <!-- custom js  -->
     <script src="./js/main.js"></script>
 </body>
