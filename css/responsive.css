@@ -83,6 +83,45 @@ TODO: resize client boxes
 TODO: center subscrine button
 */
 
+/* Galaxy S5 Start  */
+@media only screen and (max-width: 360px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner{
+        text-align: center;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .about-area{
+        text-align: center;
+        align-items: center;
+    }
+    .site-main .about-area .paragraph{
+        text-align: center;
+        padding: none;
+        margin-left: 2.25rem;
+    }
+    .site-main > .services-area .service-list{
+        padding-bottom: 0 0 0 0;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+}
+/* Galaxy S5 End  */
+
 /* Pixel 2 & 2XL 411w :
 ! TODO: Center all text and buttons
 TODO: needs services pushed left
