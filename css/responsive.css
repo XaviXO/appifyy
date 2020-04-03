@@ -1,5 +1,6 @@
 /* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 375px){
+/* original small screen  */
+@media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -20,7 +21,8 @@
         width: 13rem;
     }
 }
-/* if the viewport is equal to 340px or less than that */ 
+/* if the viewport is equal to 340px or less than that */
+/* original medium screen   */
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
@@ -48,42 +50,8 @@
         margin: 5%;
     }
 }
-
-@media only screen and (max-width: 1024px){
-    .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
-        letter-spacing: 10px;
-    }
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
-        width: 49%;
-    }
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
-    }
-    .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
-    }
-    .site-main .about-area .about-title p{
-        padding: 0%;
-    }
-    .site-main >.services-area .services{
-        margin-left: -3rem;
-    }
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem;
-        margin: 5%;
-    }
-    .site-main .subscribe-us-area .subscribe form .btn-submit button{
-        margin-top: 1rem;
-        text-align: center;
-    }
-}
 /* if the viewport is equal to 1910px or less than that */ 
+/* original large screen  */
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
@@ -97,3 +65,76 @@
         padding: 3% 4%;
     }
 }
+
+/* Responsive 400w :
+! TODO: Center all text and buttons
+TODO: needs services boxes pushed left
+TODO: projects - selections need to be centered
+TODO: center projects - img text
+TODO: clients - center img & text 
+TODO: subscribe: center button
+*/
+
+/* Galaxy S5 360w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscrine button
+*/
+
+/* Pixel 2 & 2XL 411w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr button
+*/
+
+/* iPhone 5/SE 320x :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr email & button
+*/
+
+/* iPhone 6/7/8 375w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr button
+*/
+
+/* iPhone 6/7/8 plus 414w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr email & button
+*/
+
+/* iPhone X/11 375w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr email & button
+*/
+
+/* iPad 768w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr email & button
+*/
+
+/* iPad Pro 1024w :
+! TODO: Center all text and buttons
+TODO: needs services pushed left
+TODO: projects - selections need to be centered
+TODO: resize client boxes
+TODO: center subscribr email & button
+*/
