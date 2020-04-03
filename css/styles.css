@@ -48,7 +48,7 @@
     transform: translateY(-10px);
 }
 .site-main .site-banner .site-title h1{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
@@ -254,7 +254,7 @@
 /* Footer start */ 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    background: no-repeat;
 }
 footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
